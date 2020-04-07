@@ -50,7 +50,7 @@
   }
   
   .gallery-section .image:hover img{
-    transform: scale(1.4) rotate(15deg);
+    transform: scale(1.2) rotate(3deg);
   }
   
   @media screen and (max-width:960px) {
