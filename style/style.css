@@ -20,15 +20,18 @@ h1{
     border: black 1px;
 }   
 
-.columns{
+.content{
     max-width: 1500px;
     margin: auto;
+}
+
+.columns{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.columns > a{
+.columns a{
     margin: 40px;
     padding: 60px;
     border-radius: 0.5em;
