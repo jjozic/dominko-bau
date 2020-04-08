@@ -110,12 +110,16 @@ h4{
     background: var(--clr-white);
     border-radius: 0.5em;
     box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .contact-form input,
-.contact-form p{
-    margin: 5px 10px;
-    width: 80%;
+.contact-form textarea{
+    margin: 10px 10px;
+    width: 100%;
 }
 
 textarea:focus, input:focus{
@@ -132,6 +136,7 @@ textarea{
 }
 
 textarea{
+    height: 150px;
     resize: none;
 }
 
@@ -143,24 +148,22 @@ textarea{
     color: white;
     text-decoration: none;
     font-weight: 600;
+    cursor: pointer;
+    transition: transform 150ms cubic-bezier(.5, 0, .5, 1);
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.submit:hover{
+    background-color: darkgreen;
+    transform: scale(1.1);  
 }
 
 .message{
     height: 150px; 
 }
 
-input[type=submit] {
-    background-color: var(--clr-green);
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 1em;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  } 
 
 footer{
     background-color: var(--clr-dark);
