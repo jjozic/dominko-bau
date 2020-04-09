@@ -96,9 +96,7 @@ h4{
 
 .divider{
     margin-top: 40px;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255) 0%,rgba(0,0,0,0.2) 100%), url(../img/ast.jpg);
-
-    
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255) 0%,rgba(0,0,0,0.2) 100%), url(../img/ast.jpg);    
     background-size: cover;
     height: 500px;
     display: flex;
@@ -111,9 +109,9 @@ h4{
     padding: 10px;
     height: 400px;
     width: 80%;
-    max-width: 1000px;
+    max-width: 900px;
     background: rgba(0,0,0,0.5);
-    border-radius: 0.5em;
+    border-radius: 2rem;
     box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.5);
     display: flex;
     justify-content: center;
