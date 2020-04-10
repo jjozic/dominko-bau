@@ -57,7 +57,7 @@ html{
 
 h3{
     text-align: center;
-    color: var(--clr-white);
+    color: black;
 }
 
 h4{
@@ -188,6 +188,21 @@ footer a:hover{
 
 
 /*backgrounds for columns*/
+.sanierungen{
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.5)
+        ),
+        /* bottom, image */
+        url(../img/sanierung.jpg);
+}
+    .backup{background-color: white;
+    background-image: url(../img/sanierung.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
 .neubau{
     background-image: url(../img/neubau.jpg);
     background-size: cover;
@@ -201,26 +216,22 @@ footer a:hover{
 }
 
 .fenster{
+    background-color: black;
     background-image: url(../img/fenster.jpg);
     background-size: cover;
-    background-blend-mode: multiply;
+    background-blend-mode: difference;
 }
 
-.sanierungen{
-    background-image: url(../img/sanierung.jpg);
-    background-size: cover;
-    background-blend-mode: multiply;
-}
 
 .kleinstbau{
     background-image: url(../img/kleinstbau.jpg);
     background-size: cover;
     background-blend-mode: multiply;
-}
+}   
 
 
 .leitungsbau{
-    background-image: url(../img/leitungsbau.jpg    );
+    background-image: url(../img/leitungsbau.jpg);
     background-size: cover;
     background-blend-mode: multiply;
 }
