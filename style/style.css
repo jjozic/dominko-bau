@@ -4,7 +4,6 @@
     font-family: 'Montserrat';
     box-sizing: border-box;
   }
-
 /* variables */
 
 :root {
@@ -32,13 +31,11 @@
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
-
-
 html{
     background: rgb(255,255,255);
 }
 
-.heading{
+.heading a{
     padding: 5px;
     margin-bottom: 20px;
     background-color: white;
@@ -46,7 +43,7 @@ html{
     justify-content: center;
 }
 
-.heading img{
+.heading a img{
     max-width: 80%;
 }
 
@@ -80,7 +77,6 @@ h4{
     max-width: 350px;
     text-align: center;
     box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.5);
-    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.5);
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -96,7 +92,7 @@ h4{
 
 .divider{
     margin-top: 40px;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255) 0%,rgba(0,0,0,0.2) 100%), url(../img/ast.jpg);    
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255) 0%,rgba(0,0,0,0.2) 100%), url(../img/haus.jpg);    
     background-size: cover;
     height: 500px;
     display: flex;
@@ -110,13 +106,17 @@ h4{
     height: 400px;
     width: 80%;
     max-width: 900px;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.85);
     border-radius: 2rem;
-    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.contact-form h3{
+    color: white;
 }
 
 .contact-form input,
@@ -133,7 +133,7 @@ textarea:focus, input:focus{
 textarea{
     padding: 10px;
     border-color: white;
-    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.25);
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
     border: none;
     border-radius: 1rem;
 }
@@ -168,7 +168,6 @@ textarea{
     height: 150px; 
 }
 
-
 footer{
     background-color: var(--clr-dark);
     padding: 20px;
@@ -186,52 +185,58 @@ footer a:hover{
     color: var(--clr-darkgreen);
 }
 
-
-/*backgrounds for columns*/
 .sanierungen{
     background:
-        /* top, transparent black, faked with gradient */ 
         linear-gradient(
-          rgba(0, 0, 0, 0.7), 
-          rgba(0, 0, 0, 0.5)
+          rgba(0, 0, 0, 0.8), 
+          rgba(0, 0, 0, 0.4)
         ),
-        /* bottom, image */
         url(../img/sanierung.jpg);
-}
-    .backup{background-color: white;
-    background-image: url(../img/sanierung.jpg);
     background-size: cover;
-    background-blend-mode: darken;
 }
+   
 .neubau{
-    background-image: url(../img/neubau.jpg);
-    background-size: cover;
-    background-blend-mode: multiply;
+    background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.8), 
+          rgba(0, 0, 0, 0.4)
+        ),
+        url(../img/neubau.jpg);
+        background-size: cover;
 }
-
 .poolbau{
-    background-image: url(../img/poolbau.jpg);
-    background-size: cover;
-    background-blend-mode: multiply;
+    background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.8), 
+          rgba(0, 0, 0, 0.4)
+        ),
+        url(../img/poolbau.jpg);
+        background-size: cover;
 }
-
 .fenster{
-    background-color: black;
-    background-image: url(../img/fenster.jpg);
-    background-size: cover;
-    background-blend-mode: difference;
+    background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.8), 
+          rgba(0, 0, 0, 0.4)
+        ),
+        url(../img/fenster.jpg);
+        background-size: cover;
 }
-
-
 .kleinstbau{
-    background-image: url(../img/kleinstbau.jpg);
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../img/kleinstbau.jpg);
     background-size: cover;
-    background-blend-mode: multiply;
-}   
-
-
+}
 .leitungsbau{
-    background-image: url(../img/leitungsbau.jpg);
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../img/leitungsbau.jpg);
     background-size: cover;
-    background-blend-mode: multiply;
 }
