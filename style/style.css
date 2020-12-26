@@ -123,11 +123,12 @@ h4 {
 
 .contact-form h3 {
   color: var(--clr-green);
+  text-align: center;
 }
 
 .contact-form input,
 .contact-form textarea {
-  margin: 10px 10px;
+  margin: 10px 0;
   width: 100%;
 }
 
